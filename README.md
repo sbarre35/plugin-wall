@@ -50,10 +50,6 @@ Ce plugin permet de configurer l'interface de votre Raspberry PI equipé d'un écr
 
 [![Read the Docs](docs/widget-5.png)](docs/widget-5.png)
 
-[![Read the Docs](docs/widget-6.png)](docs/widget-6.png)   
-
-[![Read the Docs](docs/widget-7.png)](docs/widget-7.png)
-
 4) Configuration des medias:
 
 [![Read the Docs](docs/media.png)](docs/media.png)
