@@ -10,7 +10,7 @@ Ce plugin permet de configurer l'interface de votre Raspberry PI equipé d'un écr
 
 ## Quelques copies d'écran de la console que j'ai configuré chez moi pour les tests:
 
-[![Read the Docs](../example-1.png)](docs/example-1.png)
+[![Read the Docs](docs/example-1.png)](docs/example-1.png)
 
 [![Read the Docs](docs/example-2.png)](docs/example-2.png)
 
