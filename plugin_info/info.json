@@ -1,0 +1,14 @@
+{
+  "id" : "wall",
+  "name": "Wall",
+  "description" : "Plugin pour la gestion des tablettes",
+  "licence": "GPL",
+  "author": "barre35",
+  "require": "3.2.15",
+  "category": "devicecommunication",
+  "hasDependency": false,
+  "hasOwnDaemon": false,
+  "maxDependancyInstallTime": 0,
+  "documentation": "https://github.com/barre35/plugin-wall/blob/master/docs/fr_FR/documentation.md",
+  "changelog": "https://github.com/barre35/plugin-wall/blob/master/docs/fr_FR/changelog.md"
+}
