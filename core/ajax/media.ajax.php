@@ -8,7 +8,16 @@ try {
   
 	include_file('core', 'authentification', 'php');
 
-  	$uploaddir = dirname(__FILE__) . '/../../assets/medias/';
+  	$datadir = dirname(__FILE__) . '/../../../../wall/';
+  
+	if (!file_exists($datadir)) {
+    	mkdir($datadir);
+        if (!file_exists($datadir)) {
+        	throw new Exception(__("{{Répertoire d'upload non trouvé}} : ", __FILE__) . $datadir);
+        }
+    }
+    
+    $uploaddir = dirname(__FILE__) . '/../../../../wall/medias/';
   
 	if (!file_exists($uploaddir)) {
     	mkdir($uploaddir);

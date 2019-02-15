@@ -59,7 +59,7 @@ function fn_media_add( id, filename) {
 			<div style="z-index:255; position: absolute; left: 0; top: 5px; background-color: transparent !important; border: none !important"> \
             	<a class="bt_media_del btn btn-danger btn-xs pull-right" style="color : white"><i class="fa fa-minus-circle"></i></a> \
             </div> \
-          	&nbsp;<center><img width="80px" height="80px" src="plugins/wall/assets/medias/' + filename + '"></center> \
+          	&nbsp;<center><img width="80px" height="80px" src="wall/medias/' + filename + '"></center> \
 		  	<span style="font-size : 1.1em;position:relative; top : 15px;word-break: break-all;white-space: pre-wrap;word-wrap: break-word;"><center>' + id + '</center></span> \
             <input type="hidden" class="cmdAttr form-control input-sm" data-l1key="id" value="' + id + '"> \
 			<input type="hidden" class="cmdAttr form-control input-sm" data-l1key="filename" value="' + filename + '"> \

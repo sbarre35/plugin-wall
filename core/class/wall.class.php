@@ -18,7 +18,7 @@ class wall extends eqLogic {
     
       	$id = init('id');
       
-      	$uploaddir = dirname(__FILE__) . '/../../assets/dashboards/';
+      	$uploaddir = dirname(__FILE__) . '/../../../../wall/dashboards/';
       
     	$string = file_get_contents($uploaddir.$id.".json");
 		
@@ -29,7 +29,7 @@ class wall extends eqLogic {
       
       	$output = "{";
       
-      	$pages = array_diff(scandir(dirname(__FILE__) . '/../../assets/pages'), array('.', '..'));
+      	$pages = array_diff(scandir(dirname(__FILE__) . '/../../../../wall/pages'), array('.', '..'));
         $string = "";     
         $separator = "";      
       	foreach ($pages as $page) {
@@ -42,7 +42,7 @@ class wall extends eqLogic {
       
       	$output = $output." ".$string.",";
       
-        $widgets = array_diff(scandir(dirname(__FILE__) . '/../../assets/widgets'), array('.', '..'));
+        $widgets = array_diff(scandir(dirname(__FILE__) . '/../../../../wall/widgets'), array('.', '..'));
         $string = "";     
         $separator = "";      
       	foreach ($widgets as $widget) {
@@ -55,7 +55,7 @@ class wall extends eqLogic {
       
         $output = $output." ".$string.",";
       
-        $medias = array_diff(scandir(dirname(__FILE__) . '/../../assets/medias'), array('.', '..'));
+        $medias = array_diff(scandir(dirname(__FILE__) . '/../../../../wall/medias'), array('.', '..'));
         $string = "";     
         $separator = "";      
       	foreach ($medias as $media) {
@@ -84,7 +84,7 @@ class wall extends eqLogic {
       
     	$id = init('id');
     
-      	$uploaddir = dirname(__FILE__) . '/../../assets/pages/';
+      	$uploaddir = dirname(__FILE__) . '/../../../../wall/pages/';
       
     	$string = file_get_contents($uploaddir.$id.".json");
 		
@@ -100,7 +100,7 @@ class wall extends eqLogic {
       
     	$id = init('id');
     
-      	$uploaddir = dirname(__FILE__) . '/../../assets/widgets/';
+      	$uploaddir = dirname(__FILE__) . '/../../../../wall/widgets/';
       
     	$string = file_get_contents($uploaddir.$id.".json");
 		
@@ -205,7 +205,7 @@ class wall extends eqLogic {
       
     	$id = init('id');
       
-        $uploaddir = dirname(__FILE__) . '/../../assets/medias/';
+        $uploaddir = dirname(__FILE__) . '/../../../../wall/medias/';
     
         $im = imagecreatefrompng($uploaddir.$id.".png");
 
